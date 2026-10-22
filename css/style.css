@@ -31,6 +31,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 88px;
+  overflow-x: hidden;
 }
 body {
   font-family: var(--font-body);
@@ -57,7 +58,7 @@ h3 {
   font-size: clamp(1.15rem, 2.5vw, 1.25rem);
   font-weight: 700;
 }
-img { max-width: 100%; }
+img, svg, video, iframe { max-width: 100%; height: auto; }
 .skip-link {
   position: absolute;
   left: -9999px;
@@ -241,6 +242,8 @@ textarea:focus-visible {
 .hero .lead { color: #CBD5E1; font-size: 1.1rem; }
 .hero-badge {
   display: inline-flex; align-items: center; gap: .5rem;
+  flex-wrap: wrap;
+  max-width: 100%;
   background: rgba(255,255,255,.1);
   border: 1px solid rgba(255,255,255,.2);
   border-radius: 999px;
@@ -361,6 +364,7 @@ textarea:focus-visible {
   border-radius: 999px; padding: .25rem .7rem;
 }
 .gallery-card.hide { display: none; }
+#galleryGrid > [class*="col-"].hide { display: none; }
 .about-img {
   border-radius: var(--radius-card);
   aspect-ratio: 4/3; object-fit: cover; width: 100%;
@@ -448,6 +452,10 @@ textarea:focus-visible {
   *, *::before, *::after { animation: none !important; transition: none !important; }
   html { scroll-behavior: auto; }
   .js-enabled .reveal { opacity: 1; transform: none; }
+}
+
+@media (max-width: 991.98px) {
+  .hero-float-card { position: relative; left: 0; bottom: 0; margin-top: 1rem; max-width: 100%; }
 }
 @media (max-width: 575.98px) {
   .hero { padding: 7.5rem 0 4rem; }

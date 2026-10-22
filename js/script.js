@@ -53,9 +53,16 @@ function initGalleryFilter() {
       btn.setAttribute("aria-pressed", "true");
       var filter = btn.getAttribute("data-filter");
       cards.forEach(function (card) {
+        var col = card.parentElement;
         var cat = card.getAttribute("data-category");
-        if (filter === "all" || cat === filter) card.classList.remove("hide");
-        else card.classList.add("hide");
+        var show = filter === "all" || cat === filter;
+        if (show) {
+          card.classList.remove("hide");
+          if (col) col.classList.remove("hide");
+        } else {
+          card.classList.add("hide");
+          if (col) col.classList.add("hide");
+        }
       });
     });
   });
