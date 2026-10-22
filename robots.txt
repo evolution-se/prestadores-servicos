@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# [ADAPTAÇÃO]: Substitua pelo domínio real do prestador quando publicar o site.
+Sitemap: https://www.seudominio.com.br/sitemap.xml

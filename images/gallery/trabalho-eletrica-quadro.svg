@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Quadro de distribuição com disjuntores alinhados e circuitos identificados">
+  <defs>
+    <linearGradient id="eg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F2744"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#eg)"/>
+  <rect x="200" y="50" width="400" height="500" rx="20" fill="#F8FAFC"/>
+  <rect x="200" y="50" width="400" height="70" rx="20" fill="#0B1D33"/>
+  <text x="400" y="95" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">QDG · TUG + ILUMINAÇÃO</text>
+  <g>
+    <rect x="240" y="150" width="70" height="130" rx="10" fill="#1D4ED8"/>
+    <rect x="320" y="150" width="70" height="130" rx="10" fill="#1D4ED8"/>
+    <rect x="400" y="150" width="70" height="130" rx="10" fill="#EA580C"/>
+    <rect x="480" y="150" width="70" height="130" rx="10" fill="#1D4ED8"/>
+    <rect x="252" y="162" width="46" height="18" rx="9" fill="#FFFFFF"/>
+    <rect x="332" y="162" width="46" height="18" rx="9" fill="#FFFFFF"/>
+    <rect x="412" y="162" width="46" height="18" rx="9" fill="#0B1D33"/>
+    <rect x="492" y="162" width="46" height="18" rx="9" fill="#FFFFFF"/>
+  </g>
+  <g font-family="monospace" font-size="22" font-weight="700">
+    <rect x="240" y="296" width="310" height="44" rx="10" fill="#EFF6FF" stroke="#1D4ED8" stroke-width="3"/>
+    <text x="260" y="326" fill="#0F2744">C1 · ILUMINAÇÃO 10A</text>
+    <rect x="240" y="352" width="310" height="44" rx="10" fill="#EFF6FF" stroke="#1D4ED8" stroke-width="3"/>
+    <text x="260" y="382" fill="#0F2744">C2 · TOMADAS 20A</text>
+    <rect x="240" y="408" width="310" height="44" rx="10" fill="#FFF7ED" stroke="#EA580C" stroke-width="3"/>
+    <text x="260" y="438" fill="#0F2744">C3 · CHUVEIRO 32A</text>
+  </g>
+  <rect x="240" y="470" width="310" height="16" rx="8" fill="#0F2744" opacity="0.3"/>
+  <circle cx="648" cy="480" r="44" fill="none" stroke="#F97316" stroke-width="10"/>
+  <path d="M648 452 L634 484 H648 L643 508 L664 476 H650 Z" fill="#F97316"/>
+</svg>

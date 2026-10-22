@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Instalação de torneira e conexões hidráulicas sem vazamento">
+  <defs>
+    <linearGradient id="hgg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F2744"/>
+      <stop offset="1" stop-color="#164E63"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#hgg)"/>
+  <g stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="2">
+    <path d="M0 150 H800 M0 300 H800 M0 450 H800"/>
+  </g>
+  <rect x="120" y="80" width="560" height="340" rx="20" fill="#F8FAFC"/>
+  <rect x="180" y="130" width="440" height="60" rx="12" fill="#0F2744"/>
+  <text x="400" y="168" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">PONTO HIDRÁULICO REFORMADO</text>
+  <g>
+    <rect x="240" y="230" width="60" height="130" rx="12" fill="#1D4ED8"/>
+    <rect x="500" y="230" width="60" height="130" rx="12" fill="#EA580C"/>
+    <path d="M300 295 H500" stroke="#94A3B8" stroke-width="26" stroke-linecap="round"/>
+    <path d="M300 295 H500" stroke="#E2E8F0" stroke-width="16" stroke-linecap="round"/>
+    <rect x="375" y="230" width="50" height="110" rx="14" fill="#0F2744"/>
+    <circle cx="400" cy="230" r="34" fill="none" stroke="#EA580C" stroke-width="12"/>
+    <path d="M400 196 V230 M366 230 H434" stroke="#EA580C" stroke-width="10" stroke-linecap="round"/>
+    <g fill="#38BDF8">
+      <path d="M400 370 q -12 22 0 34 q 12 -12 0 -34"/>
+      <path d="M430 376 q -10 18 0 28 q 10 -10 0 -28" opacity="0.7"/>
+    </g>
+  </g>
+  <rect x="120" y="450" width="560" height="70" rx="14" fill="#FFFFFF" opacity="0.95"/>
+  <text x="400" y="480" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#0F2744">Vedação nova · teste de estanqueidade OK</text>
+  <text x="400" y="505" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#475569">Registros, sifão e flexíveis conferidos</text>
+</svg>
