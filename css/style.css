@@ -265,7 +265,7 @@ textarea:focus-visible {
 }
 .hero-float-card {
   position: absolute;
-  left: 16px; bottom: -24px;
+  right: 16px; bottom: -24px;
   background: #fff; color: var(--navy);
   border-radius: 14px;
   box-shadow: var(--shadow-lift);
